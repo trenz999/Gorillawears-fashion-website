@@ -47,6 +47,87 @@ background: #eee;
         --light-color:rgba(255,255,255,.3);
         background: #222;
     }
+section{
+    padding: 1rem 9%;
+}
+.heading{
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid var(--light-color);
+    font-size: 3rem;
+    color: var(--black-color);
+    text-transform: uppercase;
+
+}
+
+
+.heading span{
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.category .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.category .box-container .box{
+    height: 30rem;
+    flex: 1 1 40rem;
+    border-radius: 5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.category .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.category .box-container .box:hover img{
+    transform: scale(1.1);
+}
+
+.category .box-container .content{
+    position:absolute;
+    bottom: 7rem;
+    left: 2rem;
+}
+
+.category .box-container .content span{
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+.category .box-container .content span{
+    font-size: 3rem;
+    color: #333;
+    text-transform: uppercase;
+     padding-top: .3rem;
+}
+
+
+
+
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.8rem;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
 
 
 header{
@@ -191,6 +272,39 @@ header.active{
     color: var(--orange);
 }
 
+.home{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+}
+.home .content{
+    flex: 1 1 40rem;
+}
+
+.home .image{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.home .image img{
+    width: 50vw;
+}
+.home .content span{
+    color: var(--orange);
+    font-size: 5rem;
+}
+.home .content h3{
+    color: var(--black-color);
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
@@ -207,6 +321,9 @@ header.active{
 
     header{
         padding: 1.5rem;
+    }
+    .home .content h3{
+        font-size: 5rem;
     }
 
  }
@@ -229,6 +346,12 @@ header.active{
         transform: translateY(-12.5rem);
     }
 
+.home .content{
+    text-align: center;
+}
+.home .image img{
+    width: 70%;
+}
 
 
  }
@@ -237,6 +360,17 @@ header.active{
     html{
         font-size: 50%;
     }
+
+    .heading {
+        text-align: center;
+        font-size: 2.5rem;
+        border-bottom: none;
+    }
+
+
+
+
+
 
     header{
         padding: 1.5rem;
