@@ -318,8 +318,8 @@ header.active{
     padding: 1rem;
 }
 
-.products .product-slider .slide .imgge img{
-height: 50rem;
+.products .product-slider .slide .image img{
+height: 100%;
 width: 100%;
 object-fit: cover;
 }
