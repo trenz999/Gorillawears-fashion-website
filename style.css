@@ -100,12 +100,13 @@ section{
     color: var(--orange);
 }
 
-.category .box-container .content span{
+.category .box-container .content h3{
     font-size: 3rem;
     color: #333;
     text-transform: uppercase;
-     padding-top: .3rem;
+     padding-top: .5rem;
 }
+
 
 
 
@@ -138,6 +139,9 @@ header{
     background: var(--white-color);
     border-bottom: .1rem solid var(--light-color);
     padding: 10px 9%;
+
+
+
 }
 
 header .logo{
@@ -301,6 +305,95 @@ header.active{
     text-transform: uppercase;
 }
 
+.products .product-slider .slide{
+    overflow: hidden;
+    position: relative;
+    border: 1rem solid var(--light-color);
+    border-radius: .5rem;
+    background: var(--white-color);
+
+}
+
+.products .product-slider .slide .image{
+    padding: 1rem;
+}
+
+.products .product-slider .slide .imgge img{
+height: 50rem;
+width: 100%;
+object-fit: cover;
+}
+
+.products .product-slider .slide .content{
+    padding: 2rem;
+    border-top: .1rem solid var(--light-color);
+}
+
+.products .product-slider .slide .icons{
+    position: absolute;
+    top: 0; right: -7rem;
+}
+
+
+.products .product-slider .slide .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    background: var(--black-color);
+    color: var(--white-color);
+    display: block;
+    margin-top: 1rem;
+
+}
+
+.products .product-slider .slide .icons a:hover{
+    background:var(--orange);
+    color: #fff;
+}
+
+.products .product-slider .slide:hover .icons{
+    right: 1rem;
+}
+
+.products .product-slider .slide .content .stars i{
+    font-size: 2rem;
+    color: var(--orange);
+}
+
+.products .product-slider .slide .content .stars span{
+    font-size: 2rem;
+    color: var(--black-color);
+    font-weight: 300;
+
+}
+.products .product-slider .slide .content h3{
+    color: var(--black-color);
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
+.products .product-slider .slide .content .price{
+    color: var(--orange);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
+.products .product-slider .slide .content .price span{
+    color: var(--black-color);
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
 
 
 
@@ -322,6 +415,12 @@ header.active{
     header{
         padding: 1.5rem;
     }
+
+    section {
+        padding: 1.5rem;
+    }
+
+
     .home .content h3{
         font-size: 5rem;
     }
