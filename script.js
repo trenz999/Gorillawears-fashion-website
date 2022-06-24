@@ -29,3 +29,41 @@ themeToggler.onclick = () =>{
         document.querySelector('body').classList.remove('active');
     }
 }
+
+var swiper = new Swiper(".product-slider", {
+    slidesPerview:3,
+    loop:true,
+    spaceBetween: 10,
+    centeredSlides: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints:{
+        0:{
+            slidesPerview: 1,
+        },
+        550:{
+            slidesPerview: 2,
+        },
+        800:{
+            slidesPerview: 3,
+        },
+        1000: {
+            slidesPerview:3,
+        },
+    },
+});
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   clickable: true,
+    // },
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+//   });

@@ -388,6 +388,10 @@ object-fit: cover;
     text-decoration: line-through;
 }
 
+.products .product-slider .swiper-button-next,
+.products .product-slider .swiper-button-prev {
+    color: var(--black-color);
+}
 
 
 
