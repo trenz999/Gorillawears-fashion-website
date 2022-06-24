@@ -212,6 +212,7 @@ header.active{
     position: fixed;
     top: 0;
     left: -120%;
+    z-index: 1000;
     height: 100%;
     background:var(--white-color);
     padding: 3rem;
@@ -393,7 +394,9 @@ object-fit: cover;
     color: var(--black-color);
 }
 
-
+.products ..gap{
+    margin-bottom: 2rem;
+}
 
 
 
