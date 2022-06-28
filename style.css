@@ -574,8 +574,62 @@ object-fit: cover;
 
 .review .review-slider .slide .user span{
     color: var(--light-color);
-    font-size: 2.7rem;
+    font-size: 1.7rem;
 }
+
+.footer .footer-container{
+    background: var(--white-color);
+    border: 1rem solid var(--light-color);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.footer .footer-container .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .footer-container .box-container .box{
+    flex: 1 1 25;
+}
+
+.footer .footer-container .box-container .box h3{
+    color: var(--orange);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.footer .footer-container .box-container .box a{
+    display: block;
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 300;
+}
+.footer .footer-container .box-container .box a:hover{
+   color: var(--orange);
+}
+
+.footer .footer-container .box-container .box img{
+    margin-top: 1rem;
+}
+
+.footer .footer-container .credit{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: .1rem solid var(--light-color);
+    color: var(--black-color);
+    text-align: center;
+}
+
+.footer .footer-container .credit span{
+    color: var(--orange);
+}
+
+
+
 
 
 
